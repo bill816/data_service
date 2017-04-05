@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name"             : "Gaoli_data_service",
+            "script"           : "startup.js",
+            "exec_interpreter" : "node",
+            "exec_mode"        : "fork",
+            "log_date_format"  : "YYYY-MM-DD HH:mm:ss Z",
+            "out_file"         : "/dev/null",
+            "error_file"       : "/dev/null",
+            "env": {
+                "NODE_ENV": "testing"
+            }
+        }
+    ]
+}
